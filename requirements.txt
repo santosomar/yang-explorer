@@ -1,5 +1,5 @@
 Django==1.8.3
-ecdsa==0.13
+ecdsa==0.14
 paramiko>=1.15.1,<=1.15.2
 pycrypto==2.6.1
 requests==2.7.0
@@ -7,7 +7,8 @@ Jinja2==2.7.3
 python-slugify
 django-debug-toolbar==1.4
 markupsafe
-lxml==3.4.4
+lxml==4.9.1
 graphviz==0.4.9
 ncclient==0.5.2
 pyang==1.6.0
+sqlparse>=0.4.2 # not directly required, pinned by Snyk to avoid a vulnerability
