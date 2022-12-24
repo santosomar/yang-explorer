@@ -11,3 +11,4 @@ lxml==3.4.4
 graphviz==0.4.9
 ncclient==0.5.2
 pyang==1.6.0
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
