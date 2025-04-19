@@ -1,6 +1,6 @@
 Django==5.0.14
 ecdsa==0.13
-paramiko>=1.15.1,<=1.15.2
+paramiko>=3.4.0,<=1.15.2
 pycrypto==2.6.1
 requests==2.7.0
 Jinja2==2.7.3
